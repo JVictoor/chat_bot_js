@@ -35,3 +35,24 @@ body{
     transform:  translateY(-5%);
     transition: transform 0.5s;
 }
+.glass-1{
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    color: rgb(122, 82, 82);
+    border-radius: 9px;
+    backdrop-filter: blur(50px);/* ver  */
+    border: 2px solid transparent;
+    background-clip: border-box; /* ver */
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 1.5; /* ver */
+    transform:  translateY(-5%);
+    transition: transform 0.5s;
+    font-size: 1.7rem;
+}
+.glass-1 h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
