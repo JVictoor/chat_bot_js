@@ -7,7 +7,7 @@
     <title>Chat_Bot</title>
 
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="script/script.js">
+    <!-- <link rel="stylesheet" href="script/script.js"> -->
 
 
 </head>
@@ -15,11 +15,34 @@
     
     <div class="glass">
         <h1> Qual sua Pergunta? </h1>
-        <!-- <h2> Certo </h2> -->
+        <h2> Digite a pergunta e aperte enter </h2>
         <div class="input"> 
-            <input type="text" name="" id="userBox" onkeydown="if(event.keyCode == 13){talk()}" placeholder="Qual Sua Pergunta ?">
+            <input type="text" id="userBox" onkeydown="if(event.keyCode == 13){conversa()}" placeholder="Qual Sua Pergunta ?">
         </div>
-        <p> </p>
+        <p id="chatLog"> Vamos conversar </p>
     </div>
+    <script src="script/script.js"></script>
+
+
+    <div class="glass">
+        <h1> Perguntas Padrão </h1>
+
+        <ul>
+            <li>oi</li>
+            <li>tudo bem</li>
+            <li>como se chama</li>
+            <li>quantos anos tem</li>
+        </ul>
+
+    </div>        
+
+        
 </body>
 </html>
+
+<!-- oi</br>
+estou bem e voce</br>
+como se chama</br>
+quantos anos tem</br>
+quem e voce</br>
+quantos anos tem</br> -->
