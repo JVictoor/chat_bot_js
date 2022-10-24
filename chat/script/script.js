@@ -1,6 +1,7 @@
 function conversa(){
     var conhecer = {
-        "oi":"olla, como esta?",
+        "oi":"ola, como esta?",
+        "tudo bem":"estou bem, obrigado por perguntar",
         "estou bem e vc": "Estou bem, obrigado por perguntar",
         "estou bem e voce": "Estou bem, obrigado por perguntar",
         "estou bem e você": "Estou bem, obrigado por perguntar",
